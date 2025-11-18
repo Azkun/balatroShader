@@ -1,0 +1,53 @@
+<!-- https://github.com/Azkun/balatroShader -->
+<!--    |\      _,,,---,,_
+ ZZZzz /,`.-'`'    -.  ;-;;,_
+      |,4-  ) )-,_. ,\ (  `'-'
+     '---''(_/--'  `-'\_)  qwkuns -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>balatroShader Demo</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #111;
+            margin: 0;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        #loader {
+            width: 100vw;
+            height: 100vh;
+            background: #222;
+            border-radius: 12px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body id="loader">
+    <script src="balatroShader.js"></script>
+    <script>
+        const fx = new BalatroShader({
+            container: "#loader",
+            colours: { c1: "#DE443B", c2: "#006BB4", c3: "#162325" },
+            speed: 1.4,
+            contrast: 2,
+            spinAmount: 0.5,
+            pixelSizeFac: 1000,
+            spinEase: 0.5
+        });
+    </script>
+</body>
+
+</html>
