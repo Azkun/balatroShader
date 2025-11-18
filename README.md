@@ -41,8 +41,8 @@ Now, you can use the project by importing `balatroShader.js` into your project, 
 const fx = new BalatroShader(options);
 ```
 
-| Option         | Type      | Default                                      | Description                                                              |                                                                                 |
-| -------------- | --------- | -------------------------------------------- | ------------------------------------------------------------------------ | ------------------------------------------------------------------------------- |
+| Option         | Type      | Default                                      | Description                                                              |
+| -------------- | --------- | -------------------------------------------- | ------------------------------------------------------------------------ |
 | `container`    | `string` or `HTMLElement`                                 | `document.body`                                                          | element where the shader is rendered. can be a CSS selector or an HTML element. |
 | `colours`      | `object`  | `{c1:"#FF1919", c2:"#FFFFFF", c3:"#000000"}` | colors of the shader effect. use hex values.                             |                                                                                 |
 | `speed`        | `number`  | `1.0`                                        | overall animation speed multiplier.                                      |                                                                                 |
