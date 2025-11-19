@@ -102,8 +102,7 @@ Feel free to refer to [this example file](https://github.com/Azkun/balatroShader
 
 ### Video showcasing the shader
 
-https://github.com/user-attachments/assets/85d91e27-8d70-4ef6-8180-1a8f73e7b325
-
+https://github.com/user-attachments/assets/cbc9a5f8-5d99-4188-959d-0a73cba448fe
 
 # Legal Disclaimer
 
