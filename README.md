@@ -8,6 +8,8 @@ Recreation of Balatro’s background shader on a website using basic WebGL and J
 
 The shader itself was created using WebGL and a series of transformations to generate the visual effect. Each pixel’s position is calculated relative to the center, then rotated based on the trigonometric functions, with multiple iterations to add complexity. Everything is rendered on the GPU, and different parameters are adjustable like colors, speed, spin amount, and other visual parameters...
 
+https://github.com/user-attachments/assets/cbc9a5f8-5d99-4188-959d-0a73cba448fe
+
 # Usage
 
 ## Preamble
@@ -99,10 +101,6 @@ Default parameters are the ones that seem to be the most coherent for me (except
 ```
 
 Feel free to refer to [this example file](https://github.com/Azkun/balatroShader/blob/main/example.html) in case you want a concrete file example using the shader as a wallpaper. 
-
-### Video showcasing the shader
-
-https://github.com/user-attachments/assets/cbc9a5f8-5d99-4188-959d-0a73cba448fe
 
 # Legal Disclaimer
 
