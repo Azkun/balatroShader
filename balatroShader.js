@@ -29,7 +29,7 @@
                 enableSpin: true,
                 autoResize: true,
                 opacity: 1.0,
-                maxFPS: 60
+                maxFPS: 30
             }, options);
 
             this.container =
